@@ -19,11 +19,7 @@ for(int i = 0; i < numbers.GetLength(0); i++)
 
 PrintIntArray2D(numbers);
 
-int ReadInt(string message)
-{
-    Console.Write(message);
-    return int.Parse(Console.ReadLine());
-}
+
 
 void PrintIntArray2D(int[,] array)
 {
